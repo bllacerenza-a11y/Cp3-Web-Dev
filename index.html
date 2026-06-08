@@ -1,1 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>CP3 - Filmes Assistidos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
+    <div id="tela-login">
+        <h2>Acesso ao Sistema</h2>
+        <form id="form-login">
+            <label for="usuario">Usuário:</label>
+            <input type="text" id="usuario" placeholder="Digite seu usuário">
+            
+            <label for="senha">Senha:</label>
+            <input type="password" id="senha" placeholder="Digite sua senha">
+            
+            <button type="submit">Entrar</button>
+        </form>
+        <p id="mensagem-login"></p>
+    </div>
+
+    <div id="tela-app" class="escondido">
+        <h2>Meus Filmes Assistidos</h2>
+        
+        <div class="controles">
+            <input type="text" id="novo-filme" placeholder="Qual filme você assistiu?">
+            <button id="btn-add-inicio">Adicionar ao Início</button>
+            <button id="btn-add-fim">Adicionar ao Final</button>
+        </div>
+        
+        <p id="mensagem-app"></p>
+        
+        <ul id="lista-filmes">
+            </ul>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

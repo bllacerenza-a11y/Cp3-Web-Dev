@@ -1,1 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
 
+#tela-login, #tela-app {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 500px;
+    margin: 0 auto;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+input {
+    width: 90%;
+    padding: 8px;
+    margin-bottom: 10px;
+    display: block;
+}
+
+button {
+    padding: 8px 12px;
+    cursor: pointer;
+    margin-right: 5px;
+}
+
+li {
+    margin-bottom: 10px;
+    padding: 5px;
+    background: #eee;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Classes controladas pelo JS */
+.escondido {
+    display: none !important;
+}
+
+.mensagem-erro {
+    color: red;
+    font-weight: bold;
+}
