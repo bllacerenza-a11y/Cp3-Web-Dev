@@ -32,8 +32,8 @@ A construção do código-fonte contou com o auxílio de IAs Generativas. Todo o
 
 No vídeo abaixo, apresento o código funcionando, explico a elaboração do prompt utilizado nas IAs e justifico as escolhas técnicas e correções realizadas no código base gerado:
 
-👉 **[Link para o vídeo no YouTube] (COLOQUE O SEU LINK AQUI)**
-👉 **[Link para o github pages] (COLOQUE O SEU LINK AQUI)**
+👉 **[Link para o vídeo no YouTube] https://youtu.be/7YtL8HlrpvI**
+👉 **[Link para o github pages] https://bllacerenza-a11y.github.io/Cp3-Web-Dev/**
 
 ---
 
